@@ -1,0 +1,772 @@
+body{
+    font-family:'Raleway', sans-serif;
+    line-height: 1.5;
+   
+   
+}
+
+/*Panel de navegación*/
+nav{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 30px;
+    background-color: rgb(162, 217, 229);
+}
+.mi-logo{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    
+    
+}
+.contenedor-enlaces{
+    display: flex;
+    gap: 40px;
+
+}
+
+.enlaces:hover{
+    text-decoration: underline;
+}
+
+/*PARTE 1 Inicio*/
+
+.seccion-1{
+    display: flex;
+    padding: 15px;
+    height: 100%;
+    margin: 0 70px;
+
+}
+
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2% 7%;
+}
+
+.titulo-principal{
+    font-weight: bold;
+    font-size: 52px;
+    opacity: 0.7;
+}
+.imagen-principal{
+    width: 233px;
+    height: 368px;
+    padding: 2% 7%;
+}
+#imagen1{
+    border-radius: 175px;
+}
+
+/*PARTE 2 Sobre mi*/
+
+.Contenedor2{
+    background-color: rgb(213, 228, 246);
+    padding: 0 195px 0 0;
+}
+
+.Sobre-mi{
+    margin: 1% 75px;
+    padding: 4% 81px;
+}
+
+.Sobre-mi h2{
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.7;
+    padding: 20px 0;
+}
+
+.Sobre-mi p{
+    text-align: justify;
+}
+
+/*PARTE 3 Skills*/
+
+.skills{
+    padding: 40px 0;
+}
+.titulo-skills{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 10px 0 40px 0;
+}
+
+.all-skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.caja-skills{
+    display: flex;
+    text-align: center;
+    background-color: rgb(230, 237, 243);
+    width: 20%;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.skills-img{
+    width: 100px;
+
+    
+}
+
+.img-skill{
+    border-radius: 55px;
+
+}
+
+.img-skillm{
+    border-radius: 60%;
+    padding: 0 40px;
+}
+
+/*PARTE 4 Hobbies*/
+
+.titulo-hobbies{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 50px 0 40px 0;
+}
+
+.all-hobbies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 50px 0;
+}
+
+.caja-hobbies{
+    display: flex;
+    text-align: center;
+    background-color: rgb(230, 237, 243);
+    width: 20%;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.hobbies-img{
+    width: 100px;
+}
+
+.img-hobbie{
+    border-radius: 25px;
+
+}
+.img-hobbiem{
+    border-radius: 40px;
+    padding: 0 14px;
+}
+
+/*PARTE 5 Formación académica*/
+.Contenedor5{
+    background-color: rgb(213, 228, 246);
+}
+
+.titulo-formacion{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 80px 0 40px 0;
+}
+
+.all-cursos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 155px 0;
+    align-items: baseline;
+    
+}
+
+.caja-de-cursos{
+    display: flex;
+    text-align: center;
+    width: 20%;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.img-ctp,.img-intensa,.img-alura{
+    width: 395px;
+    height: 275px;
+    border-radius: 20px;
+}
+.curso-titulo{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*PARTE 6 Experiencia Profesional*/
+
+.Contenedor6{
+    padding: 20px 0 60px 0;
+}
+
+.titulo-experiencia{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 80px 0 40px 0;
+}
+
+.caja-proyectos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+
+}
+
+.Imagen-proyecto{
+    width: 720px;
+    border-radius: 20px;
+}
+
+.Experiencia-caja{
+    display: grid;
+    justify-items: center;
+}
+
+.Experiencia-caja h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 80px 0 40px 0;
+}
+.Experiencia-caja h3{
+    font-weight: bold;
+}
+
+.proyecto-boton1{
+    width: 143px;
+    padding: 17px;
+    border-radius: 24px;
+    margin-left: 15px;
+    background-color: rgb(162, 217, 229);
+    font-size: 20px;
+    color:#000000;
+    border: none;
+    cursor: pointer;
+}
+
+.proyecto-boton2{
+    width: 171px;
+    padding: 17px;
+    border-radius: 24px;
+    margin-left: 15px;
+    background-color: rgb(162, 217, 229);
+    font-size: 20px;
+    color:#000000;
+    border: none;
+    cursor: pointer;
+}
+
+.proyecto-boton1:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    background:rgb(99, 172, 188);
+}
+.proyecto-boton2:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    background:rgb(99, 172, 188);
+}
+
+/*PARTE 7 Contacto*/
+
+.Contenedor7{
+    background-color: rgb(213, 228, 246);
+    padding: 20px 0 60px 0;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.formulario-titulo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 80px 0 40px 0;
+}
+
+.formulario-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario-texto2{
+    padding: 0 0 25px 0;
+}
+.formulario-area{
+    background-color:rgb(213, 228, 246) ;
+}
+
+.formulario-input{
+    background-color:rgb(213, 228, 246) ;
+    
+}
+
+.carta{
+width: 650px;
+height: 500px;
+}
+
+.enviar{
+    width: 187px;
+    padding: 17px;
+    border-radius: 24px;
+    margin-left: 194px;
+    background-color: rgb(162, 217, 229);
+    font-size: 20px;
+    color:#000000;
+    border: none;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    background:rgb(99, 172, 188);
+}
+
+
+/*Pie de página*/
+
+.pie-de-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    background:linear-gradient(rgb(125, 149, 179) ,rgb(162, 217, 229));
+}
+
+/*DISEÑO RESPONSIVO*/
+
+/*Tablet*/
+@media (max-width: 1200px) {
+
+    /* Menú */
+    .contenedor-enlaces .enlaces{
+        display:none;
+    
+    }
+    
+    /*PARTE 1 Inicio*/
+
+
+    .titulo-principal{
+    font-weight: bold;
+    font-size: 40px;
+    opacity: 0.7;
+    }
+
+    .texto-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2% 0%;
+    }
+
+    .imagen-principal{
+    width: 133px;
+    height: 268px;
+    padding: 2% 7%;
+    }
+    #imagen1{
+    border-radius: 175px;
+    }
+
+
+    /*PARTE 2 Inicio*/
+
+    .Contenedor2{
+        background-color: rgb(213, 228, 246);
+        padding: 0 15px;
+    }
+
+    .Sobre-mi{
+        margin: 1% 75px;
+        padding: 4% 81px;
+    }
+
+    .Sobre-mi h2{
+        font-weight: bold;
+        font-size: 30px;
+        opacity: 0.7;
+        padding: 20px 0;
+    }
+
+    .Sobre-mi p{
+        text-align: justify;
+    }
+
+    /*Parte 3 Skills*/
+
+    .img-skillm{
+        border-radius: 60%;
+        padding: 0 14px;
+    }
+    
+
+    /*PARTE 5 Formación académica*/
+    .Contenedor5{
+        background-color: rgb(213, 228, 246);
+    }
+
+    .titulo-formacion{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        opacity: 0.7;
+        padding: 80px 0 40px 0;
+    }
+
+    .all-cursos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 0 155px 0;
+        align-items: baseline;
+        
+    }
+
+    .caja-de-cursos{
+        display: flex;
+        text-align: center;
+        width: 20%;
+        height: 180px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .img-ctp,.img-intensa,.img-alura{
+        width: 190px;
+        height: 190px;
+        border-radius: 20px;
+    }
+    .curso-titulo{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*PARTE 6 Experiencia Profesional*/
+
+    .Contenedor6{
+        padding: 20px 0 60px 0;
+    }
+
+    .caja-proyectos{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 60px;
+        flex-direction: column;
+
+    }
+
+    .Imagen-proyecto{
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    
+    .Experiencia-caja h2{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        opacity: 0.7;
+        padding: 33px 0 2px 0;
+    }
+    .Experiencia-caja h3{
+        font-weight: bold;
+        padding: 2px 0 40px 0;
+    }
+
+    /*PARTE 7 Contacto*/
+
+    .carta{
+    display: none;
+    }
+
+    .formulario-contacto{
+        padding: 0 10px;
+    }
+
+}
+
+
+/*Mobile*/
+
+@media (max-width: 500px) {
+
+        /*PARTE 1 Inicio*/
+
+    .seccion-1{
+        display: flex;
+        padding: 15px;
+        height: 100%;
+        margin: 0 1px;
+        flex-direction: column-reverse;
+
+    }
+
+    .texto-principal{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 2% 7%;
+    }
+
+    .titulo-principal{
+        font-weight: bold;
+        font-size: 30px;
+        opacity: 0.7;
+    }
+    .imagen-principal{
+        width: 160px;
+        height: 212px;
+        padding: 0% 0%;
+    }
+
+
+    /*PARTE 2 Sobre mi*/
+
+    .Contenedor2{
+        background-color: rgb(213, 228, 246);
+        padding: 0 0px 0 0;
+    }
+
+    .Sobre-mi{
+        margin: 1% 0px;
+        padding: 1% 39px;
+    }
+    
+        /*PARTE 3 Skills*/
+
+    .skills{
+        padding: 40px 0;
+    }
+    .titulo-skills{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        opacity: 0.7;
+        padding: 10px 0 40px 0;
+    }
+
+    .all-skills{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .caja-skills{
+        display: flex;
+        text-align: center;
+        background-color: rgb(230, 237, 243);
+        width: 38%;
+        margin: 20px;
+        height: 180px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        
+    }
+
+    .skills-img{
+        width: 80px;
+
+        
+    }
+
+    .img-skillm{
+        border-radius: 60%;
+        padding: 0 40px;
+    }
+
+
+    /*PARTE 4 Hobbies*/
+
+
+    .all-hobbies{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 0 50px 0;
+        flex-wrap: wrap;
+        
+    }
+
+    .caja-hobbies{
+        display: flex;
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(230, 237, 243);
+        width: 38%;
+        height: 180px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        
+    }
+
+    .hobbies-img{
+        width: 100px;
+    }
+
+    .img-hobbie{
+        border-radius: 25px;
+
+    }
+    .img-hobbiem{
+        border-radius: 40px;
+        padding: 0 14px;
+    }
+
+
+        /*PARTE 5 Formación académica*/
+    .Contenedor5{
+        background-color: rgb(213, 228, 246);
+    }
+
+    .titulo-formacion{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        opacity: 0.7;
+        padding: 80px 0 40px 0;
+    }
+
+    .all-cursos{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 0 20px 0;
+        align-items: baseline;
+        
+    }
+
+    .caja-de-cursos{
+        display: flex;
+        text-align: center;
+        width: 20%;
+        height: 350px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .img-ctp,.img-intensa,.img-alura{
+        width: 350px;
+        height: 259px;
+        border-radius: 20px;
+    }
+    .curso-titulo{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+
+    /*PARTE 6 Experiencia Profesional*/
+
+    .Contenedor6{
+        padding: 20px 0 60px 0;
+    }
+
+    .titulo-experiencia{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        opacity: 0.7;
+        padding: 80px 0 40px 0;
+    }
+
+    .caja-proyectos{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1px;
+
+    }
+
+    .Imagen-proyecto{
+        width: 382px;
+        margin: 0 15px;
+        border-radius: 20px;
+    }
+
+    .Experiencia-caja{
+        display: grid;
+        justify-items: center;
+    }
+
+    .Experiencia-caja h2{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        opacity: 0.7;
+        padding: 25px 0 0 0;
+    }
+    .Experiencia-caja h3{
+        font-weight: bold;
+    }
+
+    /*Contacto*/
+
+    .enviar{
+        width: 187px;
+        padding: 17px;
+        border-radius: 24px;
+        margin-left: 0px;
+        background-color: rgb(162, 217, 229);
+        font-size: 20px;
+        color:#000000;
+        border: none;
+        cursor: pointer;
+    }
+
+    
+    
+}
